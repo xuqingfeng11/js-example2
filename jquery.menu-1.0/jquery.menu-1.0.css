@@ -1,0 +1,39 @@
+
+.btnk>ul{
+	margin:0;
+	padding:0;
+	font-size:30px;
+	list-style:none;
+}
+body{
+	margin:0 auto;
+}
+.btnk>ul>li{
+	float:left;
+	display:inline-block;
+	width:100px;
+	height:50px;
+	background:skyblue;
+	margin-right:3px;
+	text-align:center;
+	line-height:50px;
+}
+.btnk>ul>li>div{
+	background:pink;
+	width:100px;
+	color:#999;
+	
+	font-size:28px;
+
+	}
+	.btnk>ul>li>div a:link{
+	text-decoration:none;
+	
+	}
+	.btnk>ul>li>div a{
+		width:100px;
+		flex-wrap:wrap;
+		align-items: flex-start;
+	
+	
+	}
